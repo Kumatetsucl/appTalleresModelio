@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Crear" version="4">
+  <OBJECT>
+    <ID name="Crear" mc="Standard.Package" uid="6bb1cbcb-389e-4deb-812d-a2fa779852f3"/>
+    <PID name="CU006" mc="Standard.Package" uid="d456846c-dedc-49cd-ae8b-4d6164ba2413"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Crear]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Activity" mc="Standard.Activity" uid="b2aa2e2b-d463-423f-8da8-bc883ecfbe23"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Eliminar" version="4">
+  <OBJECT>
+    <ID name="Eliminar" mc="Standard.Package" uid="feb059cc-3f10-453b-b310-00a83717a590"/>
+    <PID name="CU006" mc="Standard.Package" uid="d456846c-dedc-49cd-ae8b-4d6164ba2413"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Eliminar]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Activity" mc="Standard.Activity" uid="2328c0fe-0b28-4b50-bce0-4dc23b175296"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

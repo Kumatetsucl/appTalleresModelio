@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="AppTalleres" version="4">
+  <OBJECT>
+    <ID name="AppTalleres" mc="Standard.Project" uid="1621138b-d92e-4071-a6e1-6b428bacec92"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[AppTalleres]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Model">
+        <COMPID name="apptalleres" mc="Standard.Package" uid="22083631-2ed1-46b3-8230-f0d914ff42c2"/>
+      </COMP>
+      <COMP relation="DiagramRoot">
+        <COMPID name="AppTalleres" mc="Infrastructure.DiagramSet" uid="f6d8c412-45fb-4c71-ada5-71cbe3ccc6c3"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Modificar" version="4">
+  <OBJECT>
+    <ID name="Modificar" mc="Standard.Package" uid="43aa5bfa-3ad8-48e0-ad34-7a751693f02d"/>
+    <PID name="CU002" mc="Standard.Package" uid="5d267309-3402-4daa-a5f4-090d4f628816"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Modificar]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Activity" mc="Standard.Activity" uid="908c9d2a-e4a6-4bce-8693-435bcb54916b"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

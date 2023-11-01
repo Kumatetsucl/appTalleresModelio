@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Leer" version="4">
+  <OBJECT>
+    <ID name="Leer" mc="Standard.Package" uid="6b0726c0-6c57-4556-b796-7c3354cf1865"/>
+    <PID name="CU005" mc="Standard.Package" uid="3e9bd7b5-4d05-43bf-b785-5d6f50b69382"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Leer]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Activity" mc="Standard.Activity" uid="5cfa58fc-e2b2-49b1-8c51-128c904bc702"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
