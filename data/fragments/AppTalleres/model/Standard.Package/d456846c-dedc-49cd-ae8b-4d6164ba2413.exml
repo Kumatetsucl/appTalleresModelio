@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="CU006" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="CU006 Municipalidades" version="4">
   <OBJECT>
-    <ID name="CU006" mc="Standard.Package" uid="d456846c-dedc-49cd-ae8b-4d6164ba2413"/>
+    <ID name="CU006 Municipalidades" mc="Standard.Package" uid="d456846c-dedc-49cd-ae8b-4d6164ba2413"/>
     <PID name="Diagrama Actividades" mc="Standard.Package" uid="a4a3f749-9f2d-4887-8c41-2eba1a03b72b"/>
     <ATTRIBUTES>
       <ATT name="IsInstantiable">false</ATT>
@@ -9,7 +9,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[CU006]]></ATT>
+      <ATT name="Name"><![CDATA[CU006 Municipalidades]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>

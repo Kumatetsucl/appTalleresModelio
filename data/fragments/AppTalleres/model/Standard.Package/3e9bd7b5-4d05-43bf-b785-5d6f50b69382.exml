@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="CU005" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="CU005 Bonos" version="4">
   <OBJECT>
-    <ID name="CU005" mc="Standard.Package" uid="3e9bd7b5-4d05-43bf-b785-5d6f50b69382"/>
+    <ID name="CU005 Bonos" mc="Standard.Package" uid="3e9bd7b5-4d05-43bf-b785-5d6f50b69382"/>
     <PID name="Diagrama Actividades" mc="Standard.Package" uid="a4a3f749-9f2d-4887-8c41-2eba1a03b72b"/>
     <ATTRIBUTES>
       <ATT name="IsInstantiable">false</ATT>
@@ -9,7 +9,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[CU005]]></ATT>
+      <ATT name="Name"><![CDATA[CU005 Bonos]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>

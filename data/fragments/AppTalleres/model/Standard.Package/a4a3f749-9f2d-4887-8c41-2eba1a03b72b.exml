@@ -20,6 +20,8 @@
         <COMPID name="CU004" mc="Standard.Package" uid="ef5b8884-0149-46ca-bf63-5b4ad755ae02"/>
         <COMPID name="CU005" mc="Standard.Package" uid="3e9bd7b5-4d05-43bf-b785-5d6f50b69382"/>
         <COMPID name="CU006" mc="Standard.Package" uid="d456846c-dedc-49cd-ae8b-4d6164ba2413"/>
+        <COMPID name="CU007" mc="Standard.Package" uid="afa794e2-7944-4e22-818f-f424f405b688"/>
+        <COMPID name="CU008" mc="Standard.Package" uid="9d6b840f-a220-41da-9c5c-15a2f25355a9"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

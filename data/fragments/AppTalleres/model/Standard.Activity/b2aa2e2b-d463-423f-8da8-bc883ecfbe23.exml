@@ -13,22 +13,22 @@
     <DEPENDENCIES>
       <COMP relation="OwnedGroup">
         <OBJECT>
-          <ID name="Instructor, Funcionario municipalidad, Administrador" mc="Standard.ActivityPartition" uid="7a3c4946-bd80-4258-8955-eda121e399b6"/>
+          <ID name="Administrador" mc="Standard.ActivityPartition" uid="7a3c4946-bd80-4258-8955-eda121e399b6"/>
           <ATTRIBUTES>
             <ATT name="IsDimension">false</ATT>
             <ATT name="IsExternal">false</ATT>
-            <ATT name="Name"><![CDATA[Instructor, Funcionario municipalidad, Administrador]]></ATT>
+            <ATT name="Name"><![CDATA[Administrador]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <COMP relation="ContainedNode">
               <OBJECT>
-                <ID name="Ingreso mantenedor Bonos" mc="Standard.OpaqueAction" uid="8d467904-dcd5-481c-92b2-6b5eb01cf8db"/>
+                <ID name="Ingreso mantenedor Municipalidad" mc="Standard.OpaqueAction" uid="8d467904-dcd5-481c-92b2-6b5eb01cf8db"/>
                 <ATTRIBUTES>
                   <ATT name="Body"></ATT>
                   <ATT name="IsMultipleInstance">false</ATT>
                   <ATT name="IsCompensation">false</ATT>
-                  <ATT name="Name"><![CDATA[Ingreso mantenedor Bonos]]></ATT>
+                  <ATT name="Name"><![CDATA[Ingreso mantenedor Municipalidad]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
@@ -44,7 +44,7 @@
                       <DEPENDENCIES>
                         <LINK relation="Target">
                           <REFOBJ>
-                            <ID name="Presionar boton &quot;Bonos&quot;" mc="Standard.OpaqueAction" uid="f9daf714-1109-4bd6-bccf-078c5549c90b"/>
+                            <ID name="Presionar boton &quot;Crear Municipalidad&quot;" mc="Standard.OpaqueAction" uid="f9daf714-1109-4bd6-bccf-078c5549c90b"/>
                           </REFOBJ>
                         </LINK>
                       </DEPENDENCIES>
@@ -53,12 +53,12 @@
                 </DEPENDENCIES>
               </OBJECT>
               <OBJECT>
-                <ID name="Presionar boton &quot;Bonos&quot;" mc="Standard.OpaqueAction" uid="f9daf714-1109-4bd6-bccf-078c5549c90b"/>
+                <ID name="Presionar boton &quot;Crear Municipalidad&quot;" mc="Standard.OpaqueAction" uid="f9daf714-1109-4bd6-bccf-078c5549c90b"/>
                 <ATTRIBUTES>
                   <ATT name="Body"></ATT>
                   <ATT name="IsMultipleInstance">false</ATT>
                   <ATT name="IsCompensation">false</ATT>
-                  <ATT name="Name"><![CDATA[Presionar boton "Bonos"]]></ATT>
+                  <ATT name="Name"><![CDATA[Presionar boton "Crear Municipalidad"]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
@@ -90,7 +90,7 @@
                       <DEPENDENCIES>
                         <LINK relation="Target">
                           <REFOBJ>
-                            <ID name="Ingresar datos de Bonos" mc="Standard.OpaqueAction" uid="05ac072d-b830-4de9-9c5c-255044ee70e8"/>
+                            <ID name="Ingresar datos de Municipalidad" mc="Standard.OpaqueAction" uid="05ac072d-b830-4de9-9c5c-255044ee70e8"/>
                           </REFOBJ>
                         </LINK>
                       </DEPENDENCIES>
@@ -99,12 +99,12 @@
                 </DEPENDENCIES>
               </OBJECT>
               <OBJECT>
-                <ID name="Ingresar datos de Bonos" mc="Standard.OpaqueAction" uid="05ac072d-b830-4de9-9c5c-255044ee70e8"/>
+                <ID name="Ingresar datos de Municipalidad" mc="Standard.OpaqueAction" uid="05ac072d-b830-4de9-9c5c-255044ee70e8"/>
                 <ATTRIBUTES>
-                  <ATT name="Body"><![CDATA[Nombre Instructor, nombre del Taller]]></ATT>
+                  <ATT name="Body"><![CDATA[Nombre Municipalidad, Direccion]]></ATT>
                   <ATT name="IsMultipleInstance">false</ATT>
                   <ATT name="IsCompensation">false</ATT>
-                  <ATT name="Name"><![CDATA[Ingresar datos de Bonos]]></ATT>
+                  <ATT name="Name"><![CDATA[Ingresar datos de Municipalidad]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
@@ -120,7 +120,7 @@
                       <DEPENDENCIES>
                         <LINK relation="Target">
                           <REFOBJ>
-                            <ID name="Presionar Boton &quot;Crear Bonos&quot;" mc="Standard.OpaqueAction" uid="091a67b0-abf0-4fc7-b15a-e9028d628024"/>
+                            <ID name="Presionar Boton &quot;Crear Municipalidad&quot;" mc="Standard.OpaqueAction" uid="091a67b0-abf0-4fc7-b15a-e9028d628024"/>
                           </REFOBJ>
                         </LINK>
                       </DEPENDENCIES>
@@ -129,12 +129,12 @@
                 </DEPENDENCIES>
               </OBJECT>
               <OBJECT>
-                <ID name="Presionar Boton &quot;Crear Bonos&quot;" mc="Standard.OpaqueAction" uid="091a67b0-abf0-4fc7-b15a-e9028d628024"/>
+                <ID name="Presionar Boton &quot;Crear Municipalidad&quot;" mc="Standard.OpaqueAction" uid="091a67b0-abf0-4fc7-b15a-e9028d628024"/>
                 <ATTRIBUTES>
                   <ATT name="Body"></ATT>
                   <ATT name="IsMultipleInstance">false</ATT>
                   <ATT name="IsCompensation">false</ATT>
-                  <ATT name="Name"><![CDATA[Presionar Boton "Crear Bonos"]]></ATT>
+                  <ATT name="Name"><![CDATA[Presionar Boton "Crear Municipalidad"]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
@@ -180,7 +180,7 @@
                       <DEPENDENCIES>
                         <LINK relation="Target">
                           <REFOBJ>
-                            <ID name="Ingresar datos de Bonos" mc="Standard.OpaqueAction" uid="05ac072d-b830-4de9-9c5c-255044ee70e8"/>
+                            <ID name="Ingresar datos de Municipalidad" mc="Standard.OpaqueAction" uid="05ac072d-b830-4de9-9c5c-255044ee70e8"/>
                           </REFOBJ>
                         </LINK>
                       </DEPENDENCIES>
@@ -191,7 +191,7 @@
               <OBJECT>
                 <ID name="Alerta" mc="Standard.OpaqueAction" uid="55e486ec-1b34-4397-b49c-758de35d3b6f"/>
                 <ATTRIBUTES>
-                  <ATT name="Body"><![CDATA[Mensaje:"La Postulacion que desea ingresar ya se encuentra registrado]]></ATT>
+                  <ATT name="Body"><![CDATA[Mensaje:"La Municipalidad que desea ingresar ya se encuentra registrado]]></ATT>
                   <ATT name="IsMultipleInstance">false</ATT>
                   <ATT name="IsCompensation">false</ATT>
                   <ATT name="Name"><![CDATA[Alerta]]></ATT>
@@ -210,7 +210,7 @@
                       <DEPENDENCIES>
                         <LINK relation="Target">
                           <REFOBJ>
-                            <ID name="Ingresar datos de Bonos" mc="Standard.OpaqueAction" uid="05ac072d-b830-4de9-9c5c-255044ee70e8"/>
+                            <ID name="Ingresar datos de Municipalidad" mc="Standard.OpaqueAction" uid="05ac072d-b830-4de9-9c5c-255044ee70e8"/>
                           </REFOBJ>
                         </LINK>
                       </DEPENDENCIES>
@@ -221,7 +221,7 @@
               <OBJECT>
                 <ID name="Alerta" mc="Standard.OpaqueAction" uid="fc90cd00-6e6b-4895-a4a0-fda7e72de3f2"/>
                 <ATTRIBUTES>
-                  <ATT name="Body"><![CDATA[Mensaje:"La Postulacion fué creada exitosamente"]]></ATT>
+                  <ATT name="Body"><![CDATA[Mensaje:"La Municipalidad fué creada exitosamente"]]></ATT>
                   <ATT name="IsMultipleInstance">false</ATT>
                   <ATT name="IsCompensation">false</ATT>
                   <ATT name="Name"><![CDATA[Alerta]]></ATT>
@@ -313,7 +313,7 @@
                       <DEPENDENCIES>
                         <LINK relation="Target">
                           <REFOBJ>
-                            <ID name="Ingreso mantenedor Bonos" mc="Standard.OpaqueAction" uid="8d467904-dcd5-481c-92b2-6b5eb01cf8db"/>
+                            <ID name="Ingreso mantenedor Municipalidad" mc="Standard.OpaqueAction" uid="8d467904-dcd5-481c-92b2-6b5eb01cf8db"/>
                           </REFOBJ>
                         </LINK>
                       </DEPENDENCIES>
@@ -343,7 +343,7 @@
                       <DEPENDENCIES>
                         <LINK relation="Target">
                           <REFOBJ>
-                            <ID name="Ingresar datos de Bonos" mc="Standard.OpaqueAction" uid="05ac072d-b830-4de9-9c5c-255044ee70e8"/>
+                            <ID name="Ingresar datos de Municipalidad" mc="Standard.OpaqueAction" uid="05ac072d-b830-4de9-9c5c-255044ee70e8"/>
                           </REFOBJ>
                         </LINK>
                       </DEPENDENCIES>
@@ -431,7 +431,7 @@
                       <DEPENDENCIES>
                         <LINK relation="Target">
                           <REFOBJ>
-                            <ID name="Validar Bonos en BD" mc="Standard.OpaqueAction" uid="81a3033b-7511-4f54-be07-9fbbc0c854a9"/>
+                            <ID name="Validar Municipalidad en BD" mc="Standard.OpaqueAction" uid="81a3033b-7511-4f54-be07-9fbbc0c854a9"/>
                           </REFOBJ>
                         </LINK>
                       </DEPENDENCIES>
@@ -440,12 +440,12 @@
                 </DEPENDENCIES>
               </OBJECT>
               <OBJECT>
-                <ID name="Validar Bonos en BD" mc="Standard.OpaqueAction" uid="81a3033b-7511-4f54-be07-9fbbc0c854a9"/>
+                <ID name="Validar Municipalidad en BD" mc="Standard.OpaqueAction" uid="81a3033b-7511-4f54-be07-9fbbc0c854a9"/>
                 <ATTRIBUTES>
                   <ATT name="Body"></ATT>
                   <ATT name="IsMultipleInstance">false</ATT>
                   <ATT name="IsCompensation">false</ATT>
-                  <ATT name="Name"><![CDATA[Validar Bonos en BD]]></ATT>
+                  <ATT name="Name"><![CDATA[Validar Municipalidad en BD]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
@@ -453,7 +453,7 @@
                     <OBJECT>
                       <ID name="ControlFlow" mc="Standard.ControlFlow" uid="64e978d9-f52e-4b51-a119-289616368682"/>
                       <ATTRIBUTES>
-                        <ATT name="Guard"><![CDATA[¿Existe Bonos?]]></ATT>
+                        <ATT name="Guard"><![CDATA[¿Existe Municipalidad?]]></ATT>
                         <ATT name="Weight"><![CDATA[1]]></ATT>
                         <ATT name="Name"><![CDATA[ControlFlow]]></ATT>
                         <ATT name="status">1970354901745664</ATT>

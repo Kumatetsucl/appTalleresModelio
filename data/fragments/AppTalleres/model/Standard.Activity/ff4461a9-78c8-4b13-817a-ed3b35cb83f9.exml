@@ -13,11 +13,11 @@
     <DEPENDENCIES>
       <COMP relation="OwnedGroup">
         <OBJECT>
-          <ID name="Instructor, Funcionario municipalidad, Administrador" mc="Standard.ActivityPartition" uid="0f3c19c4-bb5a-4f61-8d01-a7cb934a297d"/>
+          <ID name="Administrador" mc="Standard.ActivityPartition" uid="0f3c19c4-bb5a-4f61-8d01-a7cb934a297d"/>
           <ATTRIBUTES>
             <ATT name="IsDimension">false</ATT>
             <ATT name="IsExternal">false</ATT>
-            <ATT name="Name"><![CDATA[Instructor, Funcionario municipalidad, Administrador]]></ATT>
+            <ATT name="Name"><![CDATA[Administrador]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>

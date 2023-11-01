@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="CU007 Perfil" version="4">
+  <OBJECT>
+    <ID name="CU007 Perfil" mc="Standard.Package" uid="afa794e2-7944-4e22-818f-f424f405b688"/>
+    <PID name="Diagrama Actividades" mc="Standard.Package" uid="a4a3f749-9f2d-4887-8c41-2eba1a03b72b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[CU007 Perfil]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Eliminar" mc="Standard.Package" uid="0cb9eed7-1cb1-4171-aa1c-6c5d331f815f"/>
+        <COMPID name="Modificar" mc="Standard.Package" uid="31b5ba96-00c7-4c33-8984-1e5fda77540a"/>
+        <COMPID name="Crear" mc="Standard.Package" uid="98368515-6d57-4403-82bd-f3a884a15d55"/>
+        <COMPID name="Leer" mc="Standard.Package" uid="c2fe2b69-7042-48c3-b132-138fc9c67dfb"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

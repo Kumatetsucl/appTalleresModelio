@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="CU008 Salas" version="4">
+  <OBJECT>
+    <ID name="CU008 Salas" mc="Standard.Package" uid="9d6b840f-a220-41da-9c5c-15a2f25355a9"/>
+    <PID name="Diagrama Actividades" mc="Standard.Package" uid="a4a3f749-9f2d-4887-8c41-2eba1a03b72b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[CU008 Salas]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Modificar" mc="Standard.Package" uid="594b9587-f1c2-495e-9255-d44d7c2d65e5"/>
+        <COMPID name="Eliminar" mc="Standard.Package" uid="7c392d6e-b108-42ac-a91a-e29d1094eb08"/>
+        <COMPID name="Crear" mc="Standard.Package" uid="a8281a6c-28aa-46aa-bb70-fb78a895c1ad"/>
+        <COMPID name="Leer" mc="Standard.Package" uid="7d5446af-dd45-4442-a00b-8cfd888944b7"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

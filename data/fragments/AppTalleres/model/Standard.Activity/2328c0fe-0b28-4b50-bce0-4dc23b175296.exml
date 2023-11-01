@@ -13,11 +13,11 @@
     <DEPENDENCIES>
       <COMP relation="OwnedGroup">
         <OBJECT>
-          <ID name="Instructor, Funcionario municipalidad, Administrador" mc="Standard.ActivityPartition" uid="37827c68-36e1-4e54-8b60-b47b1247dddb"/>
+          <ID name="Administrador" mc="Standard.ActivityPartition" uid="37827c68-36e1-4e54-8b60-b47b1247dddb"/>
           <ATTRIBUTES>
             <ATT name="IsDimension">false</ATT>
             <ATT name="IsExternal">false</ATT>
-            <ATT name="Name"><![CDATA[Instructor, Funcionario municipalidad, Administrador]]></ATT>
+            <ATT name="Name"><![CDATA[Administrador]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -115,7 +115,7 @@
               <OBJECT>
                 <ID name="Alerta" mc="Standard.OpaqueAction" uid="a1f2fdf9-e3f5-40de-8140-3c6db088b74b"/>
                 <ATTRIBUTES>
-                  <ATT name="Body"><![CDATA[Mensaje:"Bonos existente"
+                  <ATT name="Body"><![CDATA[Mensaje:"Municipalidad existente"
 ]]></ATT>
                   <ATT name="IsMultipleInstance">false</ATT>
                   <ATT name="IsCompensation">false</ATT>
@@ -453,7 +453,7 @@
               <OBJECT>
                 <ID name="Alerta" mc="Standard.OpaqueAction" uid="295f91cb-8f3d-4dac-945e-dea78d44fd6c"/>
                 <ATTRIBUTES>
-                  <ATT name="Body"><![CDATA[Mensaje:"El Bono fué Eliminado Exitosamente"]]></ATT>
+                  <ATT name="Body"><![CDATA[Mensaje:"La Municipalidad fué Eliminado Exitosamente"]]></ATT>
                   <ATT name="IsMultipleInstance">false</ATT>
                   <ATT name="IsCompensation">false</ATT>
                   <ATT name="Name"><![CDATA[Alerta]]></ATT>
@@ -538,7 +538,7 @@
                       <DEPENDENCIES>
                         <LINK relation="Target">
                           <REFOBJ>
-                            <ID name="Validar Bono en BD" mc="Standard.OpaqueAction" uid="705a3418-c1fd-42e2-a3db-5b100125bd1a"/>
+                            <ID name="Validar Municipalidad en BD" mc="Standard.OpaqueAction" uid="705a3418-c1fd-42e2-a3db-5b100125bd1a"/>
                           </REFOBJ>
                         </LINK>
                       </DEPENDENCIES>
@@ -547,12 +547,12 @@
                 </DEPENDENCIES>
               </OBJECT>
               <OBJECT>
-                <ID name="Validar Bono en BD" mc="Standard.OpaqueAction" uid="705a3418-c1fd-42e2-a3db-5b100125bd1a"/>
+                <ID name="Validar Municipalidad en BD" mc="Standard.OpaqueAction" uid="705a3418-c1fd-42e2-a3db-5b100125bd1a"/>
                 <ATTRIBUTES>
                   <ATT name="Body"></ATT>
                   <ATT name="IsMultipleInstance">false</ATT>
                   <ATT name="IsCompensation">false</ATT>
-                  <ATT name="Name"><![CDATA[Validar Bono en BD]]></ATT>
+                  <ATT name="Name"><![CDATA[Validar Municipalidad en BD]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
@@ -718,7 +718,7 @@
                       <DEPENDENCIES>
                         <LINK relation="Target">
                           <REFOBJ>
-                            <ID name="Referscar lista de Bonos" mc="Standard.OpaqueAction" uid="f2dfbc7e-df3a-40a2-bd45-aedb9d02fe14"/>
+                            <ID name="Refrescar lista de Municipalidades" mc="Standard.OpaqueAction" uid="f2dfbc7e-df3a-40a2-bd45-aedb9d02fe14"/>
                           </REFOBJ>
                         </LINK>
                       </DEPENDENCIES>
@@ -727,12 +727,12 @@
                 </DEPENDENCIES>
               </OBJECT>
               <OBJECT>
-                <ID name="Referscar lista de Bonos" mc="Standard.OpaqueAction" uid="f2dfbc7e-df3a-40a2-bd45-aedb9d02fe14"/>
+                <ID name="Refrescar lista de Municipalidades" mc="Standard.OpaqueAction" uid="f2dfbc7e-df3a-40a2-bd45-aedb9d02fe14"/>
                 <ATTRIBUTES>
                   <ATT name="Body"></ATT>
                   <ATT name="IsMultipleInstance">false</ATT>
                   <ATT name="IsCompensation">false</ATT>
-                  <ATT name="Name"><![CDATA[Referscar lista de Bonos]]></ATT>
+                  <ATT name="Name"><![CDATA[Refrescar lista de Municipalidades]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>

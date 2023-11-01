@@ -191,7 +191,7 @@
               <OBJECT>
                 <ID name="Alerta" mc="Standard.OpaqueAction" uid="ca2a05da-6dc5-42ca-9a91-c2f3f595ff4f"/>
                 <ATTRIBUTES>
-                  <ATT name="Body"><![CDATA[Mensaje:"La Postulacion que desea ingresar ya se encuentra registrado]]></ATT>
+                  <ATT name="Body"><![CDATA[Mensaje:"El Bono que desea ingresar ya se encuentra registrado]]></ATT>
                   <ATT name="IsMultipleInstance">false</ATT>
                   <ATT name="IsCompensation">false</ATT>
                   <ATT name="Name"><![CDATA[Alerta]]></ATT>
@@ -221,7 +221,7 @@
               <OBJECT>
                 <ID name="Alerta" mc="Standard.OpaqueAction" uid="fc50e02f-2da3-4a53-96dd-653990aa5b88"/>
                 <ATTRIBUTES>
-                  <ATT name="Body"><![CDATA[Mensaje:"La Postulacion fué creada exitosamente"]]></ATT>
+                  <ATT name="Body"><![CDATA[Mensaje:"El Bono fué creado exitosamente"]]></ATT>
                   <ATT name="IsMultipleInstance">false</ATT>
                   <ATT name="IsCompensation">false</ATT>
                   <ATT name="Name"><![CDATA[Alerta]]></ATT>
